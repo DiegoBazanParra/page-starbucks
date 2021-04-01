@@ -11,7 +11,7 @@ const tl = new TimelineMax();
 
 tl.fromTo(header,1,{height: "0%"},{height: "80%" , ease: Power2.easeInout})
 .fromTo(logo,1.2,{width: "-100%"},{width: "0%" , ease: Power2.easeInout},"-=1.2")
-.fromTo(logo, 0.10, {opacity: 0, x: 30},{opacity: 1, x: 0},"-=0.5")
+.fromTo(logo, 0.5, {opacity: 0, x: 30},{opacity: 1, x: 0},"-=0.5")
 .fromTo(navlinks, 0.5, {opacity: 0, x: 30},{opacity: 1, x: 0},"-=0.5")
 .fromTo(imgstarbucks, 0.5, {opacity: 0, x: 30},{opacity: 1, x: 0},"-=0.5")
 .fromTo(herotext, 0.5, {opacity: 0, x: 30},{opacity: 1, x: 0},"-=0.5")
